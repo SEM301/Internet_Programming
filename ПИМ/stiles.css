@@ -1,0 +1,21 @@
+.img_techer{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #6b6767;
+}
+
+.slider{
+    width: 800px;
+    height: 400px;
+    margin: auto
+}
+
+.text11{
+    background-color: #6b67679c;
+    align-items: end;
+}
+
+.d-block{
+    width: 800px;
+    height: 400px;
+}
