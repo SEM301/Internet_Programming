@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.main_part {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffea;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+}
+
+.account {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 163, 175, 0);
+    cursor: pointer;
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.2s;
+    gap: 20px;
+    color: rgb(54, 57, 70);
+    font-family: sans-serif;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #d6e6ff;
+    font-weight: 700;
+}
+
+.account:hover {
+    background-color: #d7f9f8;
+    transition: 0.2s;
+}
+
+.posts_and_comments {
+    z-index: 2;
+
+    display: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space;
+    align-content: flex-start;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #e5d4ef;
+    width: 70%;
+    height: 90%;
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 3px rgb(119, 119, 119, 0.7);
+
+    overflow-y: scroll;
+}
+
+.post    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: #d7f9f8;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.post:hover {
+    background-color: #9bcecc;
+    transition: 0.2s;
+}
+
+.name_of_user_2 {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+.name_of_user_2 button{
+    display: flex;
+    justify-content:space-between;
+    font-size: 36px;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.name_of_user_2 button:hover{
+    display: flex;
+    justify-content:space-between;
+    font-size: 36px;
+    color: rgb(39, 39, 39);
+    font-weight: 400;
+    background: none;
+    border: none;
+}
+.comments {
+    z-index: 2;
+
+    display: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space;
+    align-content: flex-start;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #C5C8D4;
+    width: 70%;
+    height: 90%;
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 3px rgb(119, 119, 119, 0.7);
+
+    overflow-y: scroll;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: #d7f9f8;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+    flex: 20px;
+    display: 20px;
+}
+
+
